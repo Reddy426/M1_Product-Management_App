@@ -1,12 +1,12 @@
 // This program only run on gcc compiler.
 /*
-Product management system to Add_Product, display, delete,Edit and sale product
+Product management system to Add_Product, Read, delete,Edit and sale product
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define USERNAME "admin"
-#define PASSWORD "admin123"
+#define USERNAME "Admin"
+#define PASSWORD "Admin123"
 #define MAX 20
 
 typedef struct items
@@ -145,7 +145,7 @@ void addProduct()
 
 } // End of addproduct function
 
-void display()
+void Read()
 {
     printf("\v\v\t\t\t\t\t\t\tAvailable Products\n");
     printf("\t\t\t\t\t\t***************************\n");
@@ -174,7 +174,7 @@ void display()
         printf("\033[0m");
     }
     fclose(file);
-} // End of display functions
+} // End of Read functions
 
 void close_app()
 {
@@ -252,7 +252,7 @@ void deleteRecord()
     //     printf("\t\t\t\tNo Product is Added.");
     //     options();
     // }
-    display();
+    Read();
     printf("\n\t\t\t\t\t\tEnter the Product code to delete: ");
     scanf("%s", code);
     system("clear");
@@ -501,7 +501,7 @@ void saleProduct()
     fclose(file);
     // options();
 }
-// display of the bill.
+// Read of the bill.
 // void dbill()
 // {
 //     int i;
@@ -522,7 +522,7 @@ void options()
     int num, choice;
     while (1)
     {
-        printf("\n\t\t\t\t\t\t\t\t\t1. Add_Product\n\t\t\t\t\t\t\t\t\t2. Display");
+        printf("\n\t\t\t\t\t\t\t\t\t1. Add_Product\n\t\t\t\t\t\t\t\t\t2. Read");
         printf("\n\t\t\t\t\t\t\t\t\t3. Search\n\t\t\t\t\t\t\t\t\t4. Delete\n\t\t\t\t\t\t\t\t\t5. Edit");
         printf("\n\t\t\t\t\t\t\t\t\t6. close\n\t\t\t\t\t\t\t\t\t7. Sale product\n\n");
         printf("\t\t\t\t\t\t\t\t\tEnter your choice: ");
@@ -536,7 +536,7 @@ void options()
             break;
         case 2:
             system("clear");
-            display();
+            Read();
 
             break;
         case 3:
