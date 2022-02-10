@@ -2,22 +2,24 @@
 /*
 Product management system to Add_Product, Read, delete,Edit and sale product
 */
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h>*/
+#include "Productmanagement.h"
 #define USERNAME "Admin"
 #define PASSWORD "Admin123"
-#define MAX 20
+/*#define 50 20*/
 
-typedef struct items
+/*typedef struct items
 {
-    char product_code[MAX];
-    char product_name[MAX];
+    char product_code[50];
+    char product_name[50];
     int rate;
     int quantity;
     char Company_name[30];
 
-} ITEM;
+} 
+ ITEM;*/
 
 ITEM item;
 
@@ -102,7 +104,7 @@ void addProduct()
     printf("\v\v\t\t\t\t\t\t\tAdd Product\n");
     printf("\t\t\t\t\t\t************************\n");
     FILE *file;
-    char code[MAX];
+    char code[50];
     char x[4] = {0};
     int a;
     file = fopen("Record.txt", "ab");
@@ -192,7 +194,7 @@ void search()
 {
 
     FILE *file;
-    char code[MAX], product[MAX];
+    char code[50], product[50];
     int available;
     // if (file == NULL)
     // {
@@ -244,7 +246,7 @@ void deleteRecord()
     // printf("\v\v\t\t\t\t\t\t\tDelete Product\n");
     // printf("\t\t\t\t\t\t************************\n");
     FILE *file1, *file2;
-    char code[MAX], product[MAX];
+    char code[50], product[50];
     int available;
     file1 = fopen("Record.txt", "rb");
     // if (file1 == NULL)
@@ -297,7 +299,7 @@ void EditProduct()
     printf("\v\v\t\t\t\t\t\t\tEdit Product\n");
     printf("\t\t\t\t\t\t************************\n");
     FILE *file1, *file2;
-    char code[MAX], product[MAX];
+    char code[50], product[50];
     int available;
     // if (file1 == NULL)
     // {
