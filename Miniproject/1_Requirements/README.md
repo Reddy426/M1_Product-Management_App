@@ -10,7 +10,8 @@ Product Management System is a simple application system designed to maintain de
 
 # Defining our product system:
 
-![ProductManagements](https://user-images.githubusercontent.com/98537406/153471047-3e167e51-f7f0-48a9-ae3b-b99d433f768d.png)
+![Productmanagement](https://user-images.githubusercontent.com/98537406/153472658-ab39f855-660d-47aa-86b9-a218bcb5ed8a.png)
+
 
 
 
