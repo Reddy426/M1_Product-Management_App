@@ -98,7 +98,7 @@ int check_rate()
 }
 
 //function to Add_Product the product to the file.
-void addProduct()
+void Add_Product()
 {
     printf("\v\v\t\t\t\t\t\t\tAdd Product\n");
     printf("\t\t\t\t\t\t************Enter the product detail************\n");
@@ -144,7 +144,7 @@ void addProduct()
     fwrite(&item, sizeof(item), 1, file);
     fclose(file);
 
-} // End of addproduct function
+} // End of Add_Product function
 
 void Read()
 {
@@ -293,7 +293,7 @@ void deleteRecord()
 } // end of delete file
 
 // Function to delete the Products.
-void EditProduct()
+void Edit_Product()
 {
     printf("\v\v\t\t\t\t\t\t\tEdit Product\n");
     printf("\t\t\t\t\t\t************************\n");
@@ -553,7 +553,7 @@ void options()
         {
         case 1:
            // system("clear");
-            addProduct();
+            Add_Product();
            // system("clear");
             break;
         case 2:
@@ -571,7 +571,7 @@ void options()
             break;
         case 5:
             //system("clear");
-            EditProduct();
+            Edit_Product();
             break;
 
         case 6:
