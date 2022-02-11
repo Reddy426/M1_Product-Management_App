@@ -1,6 +1,6 @@
 # Introduction of Product Management:
 
-Product Management System is a simple application system designed to maintain details of all products. Products are used on day to day life . The project focuses on adding new Product, viewing Product, deleting, Reading and editing the list.
+Product Management System is a simple application system designed to maintain details of all products. Products are used on day to day life . The project focuses on adding new Product, Search Product, deleting, Reading, Selling and editing the list.
 
 # Features:
 - Major activities of the manual system is automated, which increases its throughput
@@ -80,9 +80,10 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 |RID |DESCRIPTION |STATUS |
 |---- |---- |---- |
 |LLR1 |ADD Product |IMPLEMENTED |
-|LLR2 |DELETE product |IMPLEMENTED |
-|LLR3	|SEARCH product |IMPLEMENTED |
-|LLR4 |Read product |IMPLEMENTED |
+|LLR2 |Read product |IMPLEMENTED |
+|LLR3	|Search product |IMPLEMENTED |
+|LLR4 |Delete product |IMPLEMENTED |
 |LLR5	|Edit product |IMPLEMENTED |
+|LLR6 |Sell Product |IMPLEMENTED |
 
 
