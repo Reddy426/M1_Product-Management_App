@@ -85,13 +85,16 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 |LLR4 |Read product |IMPLEMENTED |
 |LLR5	|Edit product |IMPLEMENTED |
 
-# Behaviour Diagram
+# Behaviour Diagram:
 
-## Use Case Diagram
+## Use Case Diagram:
+[Use Case Diagram](https://user-images.githubusercontent.com/98537406/153618999-a5034906-827f-4d91-a3ac-b9369ca7e87b.png)
 
+## Data Flow Diagram:
+![ProductManagements](https://user-images.githubusercontent.com/98537406/153473497-43f4469a-3e18-4ad1-babc-50979cea82e8.png)
 
-![Use Case Diagram](https://user-images.githubusercontent.com/98537406/153618999-a5034906-827f-4d91-a3ac-b9369ca7e87b.png)
-
+# Structure Diagram:
+##
 
 # Test Plan & Output:
 ## High level Test Plan:
