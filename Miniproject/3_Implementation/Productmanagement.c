@@ -2,13 +2,14 @@
 /*
 Product management system to Add_Product, Read, delete,Edit and Sell product
 */
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h>*/
+#include "Productmanagement.h"
 #define USERNAME "Admin"
 #define PASSWORD "Admin123"
 
-typedef struct items
+/*typedef struct items
 {
     char product_code[50];
     char product_name[50];
@@ -17,7 +18,7 @@ typedef struct items
     char Company_name[30];
 
 }
- ITEM;
+ ITEM;*/
 
 ITEM item;
 
