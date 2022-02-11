@@ -2,7 +2,7 @@
 
 |TEST ID   |DESCRIPTION  	              |EXPECTED I/P |Exp. O/p |Actual O/p |Pass or Fail |
 |---- |---- |---- |---- |---- |---- |
-|HLT_01 |Entering into the System while Loging in. |Username and Password. |Login Successful |Login Successful |Pass |
+|HLT_01 |Entering into the System while Loging in. |Enter Username and Password. |Login Successful |Login Successful |Pass |
 |HLT_02	|To Add Product. |Choice 1 |Enter the product detail |Enter the product detail |pass |
 |HLT_03	|To Delete Products |Choice 2, Enter Product Name |Record Deleted |Record Deleted |Pass |
 |HLT_04	 |To Search Products |Choice 3, Enter Product name |Record Found |Record found |Pass |
