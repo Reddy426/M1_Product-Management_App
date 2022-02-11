@@ -10,7 +10,9 @@ Product Management System is a simple application system designed to maintain de
 
 # Defining our product system:
 
-![ProductManagements](https://user-images.githubusercontent.com/98537406/153473497-43f4469a-3e18-4ad1-babc-50979cea82e8.png)
+![DataFlowDia](https://user-images.githubusercontent.com/98537406/153628913-1802e63e-9895-4708-ab0d-2d4d514649c7.png)
+
+
 
 
 
@@ -88,10 +90,14 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 # Behaviour Diagram:
 
 ## Use Case Diagram:
-[Use Case Diagram](https://user-images.githubusercontent.com/98537406/153618999-a5034906-827f-4d91-a3ac-b9369ca7e87b.png)
+![Use Case Diagram](https://user-images.githubusercontent.com/98537406/153624020-45733f00-6c6e-49dd-b009-e14b4730ade7.png)
+
 
 ## Data Flow Diagram:
-![ProductManagements](https://user-images.githubusercontent.com/98537406/153473497-43f4469a-3e18-4ad1-babc-50979cea82e8.png)
+![DataFlowDia](https://user-images.githubusercontent.com/98537406/153628913-1802e63e-9895-4708-ab0d-2d4d514649c7.png)
+
+
+
 
 # Structure Diagram:
 ##
@@ -124,6 +130,23 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 <img width="638" alt="Login_Page" src="https://user-images.githubusercontent.com/98537406/153622868-d0364f1e-28db-4bc9-a3f3-2a40a345ed0b.PNG">
 
 - Add Product:
+<img width="460" alt="Add_Product" src="https://user-images.githubusercontent.com/98537406/153623197-4066f66a-3fa8-4933-908e-a0dd0318673d.PNG">
+
+- Read Product:
+<img width="670" alt="Read_Product" src="https://user-images.githubusercontent.com/98537406/153623288-97b66e03-f840-4f98-8609-dbf01be5f8c1.PNG">
+
+- Search Product:
+<img width="371" alt="Search_Product" src="https://user-images.githubusercontent.com/98537406/153626982-9eabe3f5-3db6-4adb-a70f-26ebf353e2c1.PNG">
+
+- Edit Product:
+<img width="577" alt="Edit_Product" src="https://user-images.githubusercontent.com/98537406/153623576-3ec35d50-7502-46ed-8b02-015077e6f464.PNG">
+
+- Sell Product:
+<img width="508" alt="Sell_Product" src="https://user-images.githubusercontent.com/98537406/153623696-ef186139-e864-404c-9d76-5430cbdce46d.PNG">
+
+- Delete Product:
+<img width="640" alt="Delete_Product" src="https://user-images.githubusercontent.com/98537406/153623892-d5ea1698-a885-4d43-882b-fdf69f0846f0.PNG">
+
 
 
 
