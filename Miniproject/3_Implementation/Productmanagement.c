@@ -110,7 +110,7 @@ void Add_Product()
     printf("\n\t\t\t\t\tEnter the \" end \" to exit for here");
     printf("\n\t\t\t\t\tEnter Product code: ");
     scanf("%s",&code);
-    // scanf("%s",%x);
+    // scanf("%s",&x);
     if (strcmp(code, "end") == 0)
     {
        // system("clear");
