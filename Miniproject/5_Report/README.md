@@ -102,6 +102,9 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 # Structure Diagram
 ## Flow chart
 
+![Flochart](https://user-images.githubusercontent.com/98537406/153703326-c2d090a5-6697-4b34-b877-a4f26b30a377.png)
+
+
 # Test Plan & Output
 ## High level Test Plan
 
