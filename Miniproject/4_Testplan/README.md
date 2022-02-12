@@ -1,4 +1,4 @@
-# High level Test Plan:
+# High level Test Plan
 
 |TEST ID   |DESCRIPTION  	              |EXPECTED I/P |Exp. O/p |Actual O/p |Pass or Fail |
 |---- |---- |---- |---- |---- |---- |
@@ -9,7 +9,7 @@
 |HLT_05	 |To Delete Products |Choice 4 Enter Product code |Record Deleted successfully |Record Deleted successfully |Pass |
 |HLT_06	 |To Edit Products |Choice 5, Enter Details asked |Successfully Edited |Successfully Edited |Pass |
 
-# Low Level Test Plan:
+# Low Level Test Plan
 
 |TEST ID     	|DESCRIPTION	                            |EXPECTED I/P |Exp. O/p |Actual O/p |Pass or Fail |
 |---- |---- |---- |---- |---- |----|
