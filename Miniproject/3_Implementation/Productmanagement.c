@@ -8,7 +8,6 @@ Product management system to Add_Product, Read, delete,Edit and Sell product
 #include "Productmanagement.h"
 #define USERNAME "Admin"
 #define PASSWORD "Admin123"
-
 /*typedef struct items
 {
     char product_code[50];
@@ -98,7 +97,7 @@ int check_rate()
 }
 
 //function to Add_Product the product to the file.
-void Add_Product()
+void AddProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tAdd Product\n");
     printf("\t\t\t\t\t\t************Enter the product detail************\n");
@@ -109,8 +108,8 @@ void Add_Product()
     file = fopen("Record.txt", "ab");
     printf("\n\t\t\t\t\tEnter the \" end \" to exit for here");
     printf("\n\t\t\t\t\tEnter Product code: ");
-    scanf("%s",&code);
-    // scanf("%s",&x);
+    scanf("%s", code);
+    // scanf("%s", x);
     if (strcmp(code, "end") == 0)
     {
        // system("clear");
@@ -131,22 +130,22 @@ void Add_Product()
     // printf("%s", item.product_code);
     // printf("%s", code);
     printf("\t\t\t\t\tEnter Product Name: ");
-    scanf("%s",&item.product_name);
+    scanf("%s", item.product_name);
     printf("\n\t\t\t\t\tEnter Product Rate: ");
     a = check_rate();
     item.rate = a;
     printf("\n\t\t\t\t\tEnter Quantity: ");
     scanf("%d", &item.quantity);
     printf("\n\t\t\t\t\tEnter Company_names: ");
-    scanf(" %s",&item.Company_name);
+    scanf(" %s", item.Company_name);
 
     // writing structure to a file
     fwrite(&item, sizeof(item), 1, file);
     fclose(file);
 
-} // Finished Add_Product function
+} // Finished.
 
-void Read()
+void ReadProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tAvailable Products\n");
     printf("\t\t\t\t\t\t***************************\n");
@@ -175,7 +174,7 @@ void Read()
         printf("\n\v\t\t\t\t\t\t* Product is not available.\n");
     }
     fclose(file);
-} // Finished Read functions
+} // Finished.
 
 void close_app()
 {
@@ -188,8 +187,8 @@ void close_app()
     }
 }
 
-// search function start
-void search()
+// SearchProduct function start
+void SearchProduct()
 {
 
     FILE *file;
@@ -202,13 +201,13 @@ void search()
     // }
     printf("\v\t\t\t\t\tEnter \"end\" for back to menu.\n");
     printf("\v\t\t\t\t\tEnter the Product code to search: ");
-    scanf("%s",&code);
+    scanf("%s", code);
     if (strcmp(code, "end") == 0)
     {
         //system("clear");
         options();
     }
-    system("clear");
+    //system("clear");
     printf("\v\v\t\t\t\t\t\tProduct information\n");
     printf("\t\t\t\t\t\t**********************\n");
     available = isCodeAvailable(code);
@@ -236,13 +235,13 @@ void search()
         }
         fclose(file);
     }
-} // Finished the search function
+} // Finished.
 
 // Delete function start
 
 void deleteRecord()
 {
-     printf("\v\v\t\t\t\t\t\t\tDelete Product\n");
+     printf("\v\v\t\t\t\t\t\t\tDeleteProduct\n");
      printf("\t\t\t\t\t\t*********Enter the Details***************\n");
     FILE *file1, *file2;
     char code[50], product[50];
@@ -253,9 +252,9 @@ void deleteRecord()
     //     printf("\t\t\t\tNo Product is Added.");
     //     options();
     // }
-    Read();
+    ReadProduct();
     printf("\n\t\t\t\t\t\tEnter the Product code to delete: ");
-    scanf("%s", &code);
+    scanf("%s", code);
     //system("clear");
     available = isCodeAvailable(code);
     if (available == 0)
@@ -290,10 +289,10 @@ void deleteRecord()
         fclose(file2);
     }
 
-} // Finished delete file
+} // Finished.
 
 // Function to delete the Products.
-void Edit_Product()
+void EditProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tEdit Product\n");
     printf("\t\t\t\t\t\t************************\n");
@@ -306,7 +305,7 @@ void Edit_Product()
     //     options();
     // }
     printf("enter the Product code to Edit the record:");
-    scanf("%s", &code);
+    scanf("%s", code);
     available = isCodeAvailable(code);
     if (available == 0)
     {
@@ -330,16 +329,16 @@ void Edit_Product()
             {
                 printf("\n Updating data for the privious product %s\n", code);
                 // printf("Enter new product code: ");
-                // scanf("%s", &item.product_code);
+                // scanf("%s", item.product_code);
                 // fflush(stdin);
                 printf("enter Product Name: ");
-                scanf("%s",&item.product_name);
+                scanf("%s", item.product_name);
                 printf("Enter Product Rate: ");
                 scanf("%d", &item.rate);
                 printf("Enter Quantity: ");
                 scanf("%d", &item.quantity);
                 printf("enter Company name: ");
-                scanf("%s",&item.Company_name);
+                scanf("19%s",item.Company_name);
                 printf("\n\n");
                 fwrite(&item, sizeof(item), 1, file2);
             }
@@ -355,7 +354,7 @@ void Edit_Product()
         fclose(file1);
         fclose(file2);
     }
-} //Finished Edit file.
+} //Finished.
 
 void login()
 {
@@ -388,9 +387,9 @@ void login()
     //system("clear");
 
     printf("\v\v\t\t\tEnter username: ");
-    scanf("%s",&username);
+    scanf("%s", username);
     printf("\t\t\tEnter password: ");
-    scanf("%s",&password);
+    scanf("%s", password);
     while (1)
     {
         if ((strcmp(USERNAME, username)) == 0 && (strcmp(PASSWORD, password)) == 0)
@@ -421,7 +420,7 @@ int main()
     login();
     //system("clear");
     return 0;
-} // Finished main
+} // Finished
 
 void SellProduct()
 {
@@ -449,7 +448,7 @@ void SellProduct()
         printf("                    ");
         printf("\n\v\t\t\t\tEnter Item Code:");
         // printf("\n\v\vEnter Item Code:");
-        scanf("%s",&x);
+        scanf("%s", x);
         if (strcmp(x, "end") == 0)
         {
             system("clear");
@@ -544,8 +543,8 @@ void options()
     int num, choice;
     while (1)
     {
-        printf("\n\t\t\t\t\t\t\t\t\t1. Add_Product\n\t\t\t\t\t\t\t\t\t2. Read");
-        printf("\n\t\t\t\t\t\t\t\t\t3. Search\n\t\t\t\t\t\t\t\t\t4. Delete\n\t\t\t\t\t\t\t\t\t5. Edit");
+        printf("\n\t\t\t\t\t\t\t\t\t1. Add_Product\n\t\t\t\t\t\t\t\t\t2. ReadProduct");
+        printf("\n\t\t\t\t\t\t\t\t\t3. SearchProduct\n\t\t\t\t\t\t\t\t\t4. Delete\n\t\t\t\t\t\t\t\t\t5. Edit");
         printf("\n\t\t\t\t\t\t\t\t\t6. close\n\t\t\t\t\t\t\t\t\t7. Sell product\n\n");
         printf("\t\t\t\t\t\t\t\t\tEnter your choice: ");
         choice = get_int(num);
@@ -553,17 +552,17 @@ void options()
         {
         case 1:
            // system("clear");
-            Add_Product();
+            AddProduct();
            // system("clear");
             break;
         case 2:
            // system("clear");
-            Read();
+            ReadProduct();
 
             break;
         case 3:
            // system("clear");
-            search();
+            SearchProduct();
             break;
         case 4:
            // system("clear");
@@ -571,7 +570,7 @@ void options()
             break;
         case 5:
             //system("clear");
-            Edit_Product();
+            EditProduct();
             break;
 
         case 6:
