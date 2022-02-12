@@ -144,7 +144,7 @@ void Add_Product()
     fwrite(&item, sizeof(item), 1, file);
     fclose(file);
 
-} // End of Add_Product function
+} // Finished Add_Product function
 
 void Read()
 {
@@ -175,7 +175,7 @@ void Read()
         printf("\n\v\t\t\t\t\t\t* Product is not available.\n");
     }
     fclose(file);
-} // End of Read functions
+} // Finished Read functions
 
 void close_app()
 {
@@ -236,7 +236,7 @@ void search()
         }
         fclose(file);
     }
-} // end of the search function
+} // Finished the search function
 
 // Delete function start
 
@@ -290,7 +290,7 @@ void deleteRecord()
         fclose(file2);
     }
 
-} // end of delete file
+} // Finished delete file
 
 // Function to delete the Products.
 void Edit_Product()
@@ -355,7 +355,7 @@ void Edit_Product()
         fclose(file1);
         fclose(file2);
     }
-} //end of Edit file.
+} //Finished Edit file.
 
 void login()
 {
@@ -413,7 +413,7 @@ void login()
             break;
         }
     }
-} //end of login function
+} //Finished login function
 
 // start main funcion
 int main()
@@ -421,7 +421,7 @@ int main()
     login();
     //system("clear");
     return 0;
-} // end of main
+} // Finished main
 
 void SellProduct()
 {
@@ -588,6 +588,6 @@ void options()
             printf("\033[0m");*/
             printf("\t\t* Invalid choice.\n");
             break;
-        } // end of switch
+        } // Finished switch
     }
 }
