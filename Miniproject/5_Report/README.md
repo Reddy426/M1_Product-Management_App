@@ -102,6 +102,9 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 # Structure Diagram
 ## Flow chart
 
+![ProductM drawio](https://user-images.githubusercontent.com/98537406/153703981-52713756-656b-44cb-a1a5-7570904624b3.png)
+
+
 
 
 
