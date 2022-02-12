@@ -109,8 +109,8 @@ void Add_Product()
     file = fopen("Record.txt", "ab");
     printf("\n\t\t\t\t\tEnter the \" end \" to exit for here");
     printf("\n\t\t\t\t\tEnter Product code: ");
-    scanf("%s", code);
-    // scanf("%s", x);
+    scanf("%s",&code);
+    // scanf("%s",%x);
     if (strcmp(code, "end") == 0)
     {
        // system("clear");
@@ -131,14 +131,14 @@ void Add_Product()
     // printf("%s", item.product_code);
     // printf("%s", code);
     printf("\t\t\t\t\tEnter Product Name: ");
-    scanf("%s", item.product_name);
+    scanf("%s",&item.product_name);
     printf("\n\t\t\t\t\tEnter Product Rate: ");
     a = check_rate();
     item.rate = a;
     printf("\n\t\t\t\t\tEnter Quantity: ");
     scanf("%d", &item.quantity);
     printf("\n\t\t\t\t\tEnter Company_names: ");
-    scanf(" %s", item.Company_name);
+    scanf(" %s",&item.Company_name);
 
     // writing structure to a file
     fwrite(&item, sizeof(item), 1, file);
@@ -202,7 +202,7 @@ void search()
     // }
     printf("\v\t\t\t\t\tEnter \"end\" for back to menu.\n");
     printf("\v\t\t\t\t\tEnter the Product code to search: ");
-    scanf("%s", code);
+    scanf("%s",&code);
     if (strcmp(code, "end") == 0)
     {
         //system("clear");
@@ -255,7 +255,7 @@ void deleteRecord()
     // }
     Read();
     printf("\n\t\t\t\t\t\tEnter the Product code to delete: ");
-    scanf("%s", code);
+    scanf("%s", &code);
     //system("clear");
     available = isCodeAvailable(code);
     if (available == 0)
@@ -306,7 +306,7 @@ void Edit_Product()
     //     options();
     // }
     printf("enter the Product code to Edit the record:");
-    scanf("%s", code);
+    scanf("%s", &code);
     available = isCodeAvailable(code);
     if (available == 0)
     {
@@ -330,10 +330,10 @@ void Edit_Product()
             {
                 printf("\n Updating data for the privious product %s\n", code);
                 // printf("Enter new product code: ");
-                // scanf("%s", item.product_code);
+                // scanf("%s", &item.product_code);
                 // fflush(stdin);
                 printf("enter Product Name: ");
-                scanf("%s", item.product_name);
+                scanf("%s",&item.product_name);
                 printf("Enter Product Rate: ");
                 scanf("%d", &item.rate);
                 printf("Enter Quantity: ");
@@ -388,9 +388,9 @@ void login()
     //system("clear");
 
     printf("\v\v\t\t\tEnter username: ");
-    scanf("%s", username);
+    scanf("%s",&username);
     printf("\t\t\tEnter password: ");
-    scanf("%s", password);
+    scanf("%s",&password);
     while (1)
     {
         if ((strcmp(USERNAME, username)) == 0 && (strcmp(PASSWORD, password)) == 0)
@@ -449,7 +449,7 @@ void SellProduct()
         printf("                    ");
         printf("\n\v\t\t\t\tEnter Item Code:");
         // printf("\n\v\vEnter Item Code:");
-        scanf("%s", x);
+        scanf("%s",&x);
         if (strcmp(x, "end") == 0)
         {
             system("clear");
