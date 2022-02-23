@@ -10,3 +10,5 @@
 [![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Static_check.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Static_check.yml)
 
 [![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Buildlinux.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Buildlinux.yml)
+
+[![Dynamic check](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Dynamic_Analysis.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Dynamic_Analysis.yml)
