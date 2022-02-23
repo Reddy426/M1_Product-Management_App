@@ -1,2 +1,2 @@
-Productmanagement:
-	gcc Productmanagement.c -o ProductM
+Productmanagement: Productmanagement
+	gcc Productmanagement.c -o output
