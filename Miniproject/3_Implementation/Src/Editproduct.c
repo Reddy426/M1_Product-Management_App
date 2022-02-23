@@ -1,5 +1,9 @@
 #include "Productmanagement.h"
-// Function to delete the Products.
+/**
+ * @brief Function to Editproduct
+ * 
+ * @return * void 
+ */
 void EditProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tEdit Product\n");

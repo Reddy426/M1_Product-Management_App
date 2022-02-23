@@ -1,5 +1,9 @@
 #include "Productmanagement.h"
-//function to Add_Product the product to the file.
+/**
+ * @brief function to Addproduct
+ * 
+ * @return * void 
+ */
 void AddProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tAdd Product\n");

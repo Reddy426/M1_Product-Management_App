@@ -97,7 +97,11 @@ int check_rate()
 
 #include "Productmanagement.h"
 // Delete function start
-
+/**
+ * @brief Function to Deletebook
+ * 
+ * @return * void 
+ */
 void deleteRecord()
 {
      printf("\v\v\t\t\t\t\t\t\tDeleteProduct\n");
