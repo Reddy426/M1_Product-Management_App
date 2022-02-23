@@ -6,8 +6,11 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
+make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
+ 
 
-# Make data base, printed on Wed Feb 23 15:46:47 2022
+# Make data base, printed on Wed Feb 23 16:04:17 2022
 
 # Variables
 
@@ -54,7 +57,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-23349504-4a47-43d3-90d6-65149807307e-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6bc8b7f3-b372-453b-9e8f-bcc8a1b4ab96-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -80,7 +83,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_400_SEWUFCFMGTZZVMKL
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9492_WDZIBKXWRRFTAPKY
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -194,7 +197,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 400
+VSCODE_PID = 9492
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
@@ -257,14 +260,12 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # No general (`VPATH' variable) search path.
 
 # # of strings in strcache: 1
-# # of str 
-make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
-make: *** No rule to make target `all'.  Stop.
- 
-cache buffers: 1
+# # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Wed Feb 23 15:46:47 2022
+# Finished Make data base on Wed Feb 23 16:04:17 2022
 
+ 
+make: *** No rule to make target `all'.  Stop.
  

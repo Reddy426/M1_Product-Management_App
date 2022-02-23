@@ -1,10 +1,6 @@
 
 #include "Productmanagement.h"
-/**
- * @brief Function to Readproduct
- * 
- * @return * void 
- */
+
 void ReadProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tAvailable Products\n");

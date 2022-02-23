@@ -1,7 +1,9 @@
 make -f B:\PROJECT\MS_VSCODE\LED_Test --dry-run --always-make --keep-going --print-directory
 make: Entering directory `c:/Users/banup/M1_Product-Management_App'
-make: Leaving directory `c:/Users/banup/M1_Product-Management_App'
  
 make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
+ 
+make: Leaving directory `c:/Users/banup/M1_Product-Management_App'
+ 
 make: *** No targets.  Stop.
  

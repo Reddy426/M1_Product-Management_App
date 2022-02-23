@@ -1,9 +1,4 @@
 #include "Productmanagement.h"
-/**
- * @brief Function to Sellproduct
- * 
- * @return * void 
- */
 void SellProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tSell Product\n");

@@ -1,9 +1,4 @@
 #include "Productmanagement.h"
-/**
- * @brief Function to Editproduct
- * 
- * @return * void 
- */
 void EditProduct()
 {
     printf("\v\v\t\t\t\t\t\t\tEdit Product\n");
