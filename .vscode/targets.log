@@ -6,11 +6,8 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
- 
-make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
- 
 
-# Make data base, printed on Fri Feb 25 22:17:25 2022
+# Make data base, printed on Fri Feb 25 22:27:17 2022
 
 # Variables
 
@@ -57,7 +54,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2d5f512d-d1a9-42fb-92a2-826428b50cbd-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e7c73cf5-fe8e-476a-bf58-4d12daec0391-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -83,7 +80,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17868_ZITZPOXYUMSHFUKX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15872_HKOTBRUVPANYKUPZ
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -197,7 +194,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 17868
+VSCODE_PID = 15872
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
@@ -209,7 +206,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 
 # Directories
 
-# . (key c:/Users/banup/M1_Product-Management_App, mtime 1645614524): 7 files, no impossibilities.
+# . (key c:/Users/banup/M1_Product-Management_App, mtime 1645807823): 7 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1644837714): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1644837725): 99 files, no impossibilities so far.
 
@@ -264,8 +261,9 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Fri Feb 25 22:17:25 2022
+# Finished Make data base on Fri Feb 25 22:27:17 2022
 
  
+make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
 make: *** No rule to make target `all'.  Stop.
  
