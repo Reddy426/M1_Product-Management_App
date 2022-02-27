@@ -84,7 +84,8 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 
 ## Use Case Diagram
 
-![Use Case Diagram](https://user-images.githubusercontent.com/98537406/153624020-45733f00-6c6e-49dd-b009-e14b4730ade7.png)
+![Use Case Diagram](https://user-images.githubusercontent.com/98537406/155880047-d9d5824a-8cd6-42b7-9e1b-53d27db6b551.png)
+
 
 ## Data Flow Diagram
 
