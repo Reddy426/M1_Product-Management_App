@@ -9,9 +9,6 @@ Product Management System is a simple application system designed to maintain de
 - The information entered is more accurate and clear
 - Better data management facility in terms of maintaining files which are entered in registers manually and stored.
 
-# Defining our product system
-
-![DataFlowDia](https://user-images.githubusercontent.com/98537406/153628913-1802e63e-9895-4708-ab0d-2d4d514649c7.png)
 
 # 4W'S and 1H
 
@@ -91,13 +88,15 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 
 ## Data Flow Diagram
 
-![DataFlowDia](https://user-images.githubusercontent.com/98537406/153628913-1802e63e-9895-4708-ab0d-2d4d514649c7.png)
+![DataFlowDia](https://user-images.githubusercontent.com/98537406/155879989-44aa15ff-1bba-4a41-8116-4fc0eb83afbf.png)
+
 
 # Structure Diagram
 
 ## Flow chart
 
-![ProductM drawio](https://user-images.githubusercontent.com/98537406/153703981-52713756-656b-44cb-a1a5-7570904624b3.png)
+![ProductM](https://user-images.githubusercontent.com/98537406/155879847-d5564020-78dc-430a-9cb7-e4a31ad85ee4.png)
+
 
 # Test Plan & Output
 
