@@ -1,3 +1,5 @@
+
+#include "Productmanagement.h"
 // This program only run on gcc compiler.
 /*
 Product management system to Add_Product, Read, delete,Edit and Sell product
@@ -5,7 +7,7 @@ Product management system to Add_Product, Read, delete,Edit and Sell product
 /*#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>*/
-#include "Productmanagement.h"
+
 #define USERNAME "Admin"
 #define PASSWORD "Admin123"
 /*typedef struct items
@@ -17,8 +19,8 @@ Product management system to Add_Product, Read, delete,Edit and Sell product
     char Company_name[30];
 
 }
- ITEM;*/
-
+ ITEM;
+*/
 ITEM item;
 
 // Operate to see in the given product code is available
@@ -66,9 +68,7 @@ int get_int(int input)
         while ((ch = getchar()) != '\n')
         {
         }
-        /* system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
         printf("\n\v\t\t\t\t\t\tMust be positive integer.\n");
         printf("\t\t\t\t\tEnter Positive integer value, such as 1,2,3,4: ");
     }
@@ -86,9 +86,7 @@ int check_rate()
         while ((ch = getchar()) != '\n')
         {
         }
-        /* system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
          printf("\n\v\t\t\t\t\t\tRate be positive Integer.\n");
         printf("\t\t\t\t\tEnter rate of the product in positive integer: ");
     }
@@ -109,26 +107,22 @@ void AddProduct()
     printf("\n\t\t\t\t\tEnter the \" end \" to exit for here");
     printf("\n\t\t\t\t\tEnter Product code: ");
     scanf("%s", code);
-    // scanf("%s", x);
+
     if (strcmp(code, "end") == 0)
     {
-       // system("clear");
+
         options();
     }
     int available;
     available = isCodeAvailable(code); // return 1 if code id found and return 0 if the code is not available.
     if (available == 1)
     {
-        /*system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
         printf("\n\v\t\t\t\t\t\t* Product is already there.\n");
         options();
     }
     strcpy(item.product_code, code); // copy the code to the structure item
-    // fflush(stdin);
-    // printf("%s", item.product_code);
-    // printf("%s", code);
+
     printf("\t\t\t\t\tEnter Product Name: ");
     scanf("%s", item.product_name);
     printf("\n\t\t\t\t\tEnter Product Rate: ");
@@ -168,9 +162,7 @@ void ReadProduct()
     printf("\t\t\t------------------------------------------------------------------------------------------------------\n");
     if (count == 0)
     {
-        /*system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
         printf("\n\v\t\t\t\t\t\t* Product is not available.\n");
     }
     fclose(file);
@@ -194,17 +186,13 @@ void SearchProduct()
     FILE *file;
     char code[50], product[50];
     int available;
-    // if (file == NULL)
-    // {
-    //     printf("\t\t\t\tNo Product is Added.");
-    //     options();
-    // }
+
     printf("\v\t\t\t\t\tEnter \"end\" for back to menu.\n");
     printf("\v\t\t\t\t\tEnter the Product code to search: ");
     scanf("%s", code);
     if (strcmp(code, "end") == 0)
     {
-        //system("clear");
+
         options();
     }
     //system("clear");
@@ -213,10 +201,7 @@ void SearchProduct()
     available = isCodeAvailable(code);
     if (available == 0)
     {
-       // system("clear");
-       /* system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
          printf("\n\t\t\t\t\t\tProduct code is not found.\n");
     }
     else
@@ -247,21 +232,15 @@ void deleteRecord()
     char code[50], product[50];
     int available;
     file1 = fopen("Record.txt", "rb");
-    // if (file1 == NULL)
-    // {
-    //     printf("\t\t\t\tNo Product is Added.");
-    //     options();
-    // }
+
     ReadProduct();
     printf("\n\t\t\t\t\t\tEnter the Product code to delete: ");
     scanf("%s", code);
-    //system("clear");
+
     available = isCodeAvailable(code);
     if (available == 0)
     {
-        /*system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
          printf("\n\v\t\t\t\t\t\t* Product is not available.\n");
     }
     else
@@ -299,19 +278,13 @@ void EditProduct()
     FILE *file1, *file2;
     char code[50], product[50];
     int available;
-    // if (file1 == NULL)
-    // {
-    //     printf("\t\t\t\tNo Product is Added.");
-    //     options();
-    // }
+
     printf("enter the Product code to Edit the record:");
     scanf("%s", code);
     available = isCodeAvailable(code);
     if (available == 0)
     {
-       /* system("clear");
-        printf("\033[1;31m");
-        printf("\033[0m");*/
+
          printf("\n\v\t\t\t\t\t\t* no Product is found for Edit.\n");
     }
     else
@@ -328,9 +301,7 @@ void EditProduct()
             else
             {
                 printf("\n Updating data for the privious product %s\n", code);
-                // printf("Enter new product code: ");
-                // scanf("%s", item.product_code);
-                // fflush(stdin);
+
                 printf("enter Product Name: ");
                 scanf("%s", item.product_name);
                 printf("Enter Product Rate: ");
@@ -383,8 +354,6 @@ void login()
     printf("\v\v\t\t\t\t\t\t\tLogin \n");
     printf("\t\t\t\t\t\t************************\n");
     char username[15], password[10];
-    //loginAgain:
-    //system("clear");
 
     printf("\v\v\t\t\tEnter username: ");
     scanf("%s", username);
@@ -394,18 +363,13 @@ void login()
     {
         if ((strcmp(USERNAME, username)) == 0 && (strcmp(PASSWORD, password)) == 0)
         {
-           /*system("clear");
-            printf("\033[1;32m");
-            printf("\033[0m");*/
+
             printf("\t\t\t\t\tLogin successfully!!");
             options();
         }
         else
         {
-           /* system("clear");
-            printf("\033[1;31m");
-            printf("\033[0m");*/
-            // goto loginAgain;
+
             printf("\n\t\t\tsorry you enter the worng information.\n");
             printf("\n\t\t\tPlease try again.\n");
             login();
@@ -418,7 +382,7 @@ void login()
 int main()
 {
     login();
-    //system("clear");
+
     return 0;
 } // Finished
 
@@ -430,15 +394,10 @@ void SellProduct()
     int q = 0, size = 0, i = 1;
     int total = 0, gtotal = 0;
     FILE *file;
-    // if (file == NULL)
-    // {
-    //     printf("\t\t\tno product is found.");
-    //     options();
-    // }
+
     file = fopen("Record.txt", "r+b");
     rewind(file);
-    // system("clear");
-    // dbill();
+
     int availableC, availableQ;
     printf("\t\t\t\t\tEnter  \" end \" to finish input");
     int qty = item.quantity;
@@ -457,41 +416,23 @@ void SellProduct()
         availableC = isCodeAvailable(x);
         if (availableC == 0)
         {
-           /* system("clear");
-            printf("\033[1;31m");
-            printf("\033[0m");*/
+
             printf("\n\v\t\t\t\t\t\t* no Product is found.\n");
             options();
         }
 
         printf("\t\t\t\tEnter Quantity:");
         scanf("%d", &q);
-        // printf("item%d", item.quantity);
 
-        // printf("beg%d", qty);
         qty = qty - q;
         if (qty < 0)
         {
-           /*system("clear");
-            printf("\033[1;31m");
-            //system("clear");
-           printf("\033[0m");*/
+
             printf("\n\t\t\t\t\t\t* Out of stock.\n");
             break;
         }
 
-        // printf("qqqq%d", qty);
 
-        // availableQ = isProductAvailable(q);
-        // if (availableQ == 0)
-        // {
-        //     // system("clear");
-        //     system("clear");
-        //     printf("\033[1;31m");
-        //     printf("\n\v\t\t\t\t\t\t* This product has 0 quantity.");
-        //     printf("\033[0m");
-        //     options();
-        // }
         rewind(file);
         while (fread(&item, sizeof(item), 1, file))
         {
@@ -516,25 +457,13 @@ void SellProduct()
     }
     if (gtotal != 0)
     {
-        // system("clear");
+
         printf("\n\v\t\t\t\t\t\tTOTAL AMOUNT = NRs. %d", gtotal);
     }
     fclose(file);
     // options();
 }
-// Read of the bill.
-// void dbill()
-// {
-//     int i;
-//     for (i = 1; i <= 10; i++)
-//         printf("-");
-//     printf(" HRITIK DEPARTMENTAL STORE");
-//     for (i = 1; i <= 10; i++)
-//         printf("-");
-//     printf("\n\n");
-//     printf("CUSTOMER'S BILL\n");
-//     printf("SN.   Item Name     Quantity     Rate          Total\n");
-// }
+
 
 void options()
 {
@@ -551,40 +480,38 @@ void options()
         switch (choice)
         {
         case 1:
-           // system("clear");
+
             AddProduct();
-           // system("clear");
+
             break;
         case 2:
-           // system("clear");
+
             ReadProduct();
 
             break;
         case 3:
-           // system("clear");
+
             SearchProduct();
             break;
         case 4:
-           // system("clear");
+
             deleteRecord();
             break;
         case 5:
-            //system("clear");
+
             EditProduct();
             break;
 
         case 6:
-            //system("clear");
+
             close_app();
             break;
         case 7:
-           // system("clear");
+
             SellProduct();
             break;
         default:
-            /*system("clear");
-            printf("\033[1;31m");
-            printf("\033[0m");*/
+
             printf("\t\t* Invalid choice.\n");
             break;
         } // Finished switch
