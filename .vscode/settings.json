@@ -1,3 +1,9 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "READ.C": "cpp",
+        "SEARCH.C": "cpp",
+        "DELETE.C": "cpp",
+        "EDIT.C": "cpp"
+    }
 }

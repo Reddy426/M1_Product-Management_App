@@ -32,6 +32,10 @@ typedef struct items
     char Company_name[30];
 
 } ITEM;
+ITEM item;
+
+
+
 
 
 #endif

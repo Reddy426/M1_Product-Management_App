@@ -10,7 +10,7 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
  
 
-# Make data base, printed on Sun Feb 27 07:09:14 2022
+# Make data base, printed on Tue Mar 01 17:49:40 2022
 
 # Variables
 
@@ -49,8 +49,6 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile
 MAKEFILE_LIST := 
 # environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
 TMP = C:\Users\banup\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -59,9 +57,9 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-024f9c72-ab5b-4d63-979f-ee70d2f7b424-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0e3b8fe9-b93c-4361-a758-c82c840fde7f-sock
 # environment
-VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\banup\Desktop\WHATEVER
 # environment
 NO_PROXY = 127.0.0.1
 # environment
@@ -85,7 +83,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10912_GFFMRWBPSJTASHWW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20664_VKVUQDDMTHBNAJMT
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -199,13 +197,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 10912
+VSCODE_PID = 20664
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
-# Load=95/1024=9%, Rehash=0, Collisions=11/111=10%
+# Load=93/1024=9%, Rehash=0, Collisions=11/109=10%
 
 # Pattern-specific Variable Values
 
@@ -213,11 +209,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 
 # Directories
 
-# . (key c:/Users/banup/M1_Product-Management_App, mtime 1645925775): 10 files, no impossibilities.
+# . (key c:/Users/banup/M1_Product-Management_App, mtime 1645925980): 7 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1644837714): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1644837725): 99 files, no impossibilities so far.
 
-# 184 files, no impossibilities in 3 directories.
+# 181 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -268,7 +264,7 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Sun Feb 27 07:09:14 2022
+# Finished Make data base on Tue Mar 01 17:49:40 2022
 
  
 make: *** No rule to make target `all'.  Stop.
