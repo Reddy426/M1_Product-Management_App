@@ -37,3 +37,6 @@ Build_test:
 	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 run_test:Build_test
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+staticcheck:
+	cppcheck --enable=all -iunity .
