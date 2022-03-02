@@ -7,3 +7,4 @@
 [![Build-Linux](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Build-Linux.yml)
 [![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml)
 [![unit Testing -unity](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/unity.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/unity.yml)
+[![.github/workflows/Static-check.yml](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Static-check.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/Static-check.yml)
