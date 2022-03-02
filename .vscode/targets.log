@@ -6,12 +6,8 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
- 
-make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
-make: *** No rule to make target `all'.  Stop.
- 
 
-# Make data base, printed on Wed Mar 02 11:21:30 2022
+# Make data base, printed on Wed Mar 02 21:53:43 2022
 
 # Variables
 
@@ -60,7 +56,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8142dc4f-2c8e-4c87-af00-1f6df2ffebcd-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-626224f9-83b8-40c5-b425-3619598b854f-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -86,7 +82,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10948_VZXGTIYYLBCEQPWJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21928_RRPSOIENWCTSUERR
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -202,7 +198,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 10948
+VSCODE_PID = 21928
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
@@ -269,6 +265,9 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Wed Mar 02 11:21:30 2022
+# Finished Make data base on Wed Mar 02 21:53:43 2022
 
+ 
+make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
+make: *** No rule to make target `all'.  Stop.
  

@@ -1,4 +1,5 @@
 #include "Productmanagement.h"
+
 ITEM item;
 int isCodeAvailable(char code[])
 {
@@ -8,6 +9,23 @@ int isCodeAvailable(char code[])
     {
         fread(&item, sizeof(item), 1, file);
         if (strcmp(code, item.product_code) == 0)
+        {
+            fclose(file);
+            return 1;
+        }
+    }
+    fclose(file);
+    return 0;
+}
+
+int isProductAvailable(int quantity)
+{
+    FILE *file;
+    file = fopen("Record.txt", "r");
+    while (!feof(file))
+    {
+        fread(&item, sizeof(item), 1, file);
+        if (item.quantity >= quantity)
         {
             fclose(file);
             return 1;
