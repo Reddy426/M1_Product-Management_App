@@ -7,3 +7,4 @@
 [![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml)
 [![unit Testing -unity](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/unity.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/unity.yml)
 [![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml)
+[![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml)
