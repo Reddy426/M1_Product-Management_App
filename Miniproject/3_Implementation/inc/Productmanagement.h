@@ -1,7 +1,7 @@
 /**
  * @file Productmanagement.h
- * @author Reddy426 (you@domain.com)
- * @brief This project about Product Management
+ * @author Reddy426 (banuprakashreddy24@gmail.com)
+ * @brief This project is about Product Management
  * @version 0.1
  * @date 2022-02-11
  * 

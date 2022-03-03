@@ -11,7 +11,7 @@ make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
 make: *** No rule to make target `all'.  Stop.
  
 
-# Make data base, printed on Thu Mar 03 11:35:38 2022
+# Make data base, printed on Thu Mar 03 11:46:14 2022
 
 # Variables
 
@@ -58,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-354a181d-6fdc-4d61-bb2e-7271a837fade-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a74a9054-8b3d-49da-9929-133188465707-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -84,7 +84,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23256_GDBYZALHEWQCCSLR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24448_RCMIYIEMKTPBSFYY
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -198,7 +198,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 23256
+VSCODE_PID = 24448
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
@@ -265,6 +265,6 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Thu Mar 03 11:35:38 2022
+# Finished Make data base on Thu Mar 03 11:46:14 2022
 
  
