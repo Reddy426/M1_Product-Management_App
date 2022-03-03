@@ -10,7 +10,7 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
  
 
-# Make data base, printed on Thu Mar 03 10:17:40 2022
+# Make data base, printed on Thu Mar 03 11:10:43 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-076d433e-e757-4a5b-a19d-c1485bc3454d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-224d9b64-6d64-4492-91d3-a86e00c4adde-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -209,7 +209,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 
 # Directories
 
-# . (key c:/Users/banup/M1_Product-Management_App, mtime 1646254417): 6 files, no impossibilities.
+# . (key c:/Users/banup/M1_Product-Management_App, mtime 1646282934): 6 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1644837714): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1644837725): 99 files, no impossibilities so far.
 
@@ -262,9 +262,10 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
+# strcache free: total = 4066 / max = 4066 / m 
+in = 4066 / avg = 4066
 
-# Finished Make data base on Thu Mar 03 10:17:40 2022
+# Finished Make data base on Thu Mar 03 11:10:43 2022
 
  
 make: *** No rule to make target `all'.  Stop.
