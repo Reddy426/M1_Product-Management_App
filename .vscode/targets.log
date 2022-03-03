@@ -6,8 +6,11 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
+make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
+ 
 
-# Make data base, printed on Thu Mar 03 15:55:10 2022
+# Make data base, printed on Thu Mar 03 16:24:32 2022
 
 # Variables
 
@@ -34,7 +37,8 @@ HOMEDRIVE = C:
 # makefile
 CURDIR := c:/Users/banup/M1_Product-Management_App
 # default
-SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
+S 
+HELL := C:/WinAVR-20100110/utils/bin/sh.exe
 # environment
 WINDIR = C:\WINDOWS
 # environment
@@ -54,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d08c710a-079a-4664-86e6-64f0462f7cc4-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-fc68f1fd-7623-4673-b095-b806ae543654-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -80,7 +84,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14256_WUCUOCOAYNYMPQTX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13824_AKGTGBVQHFIDVEXI
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -194,7 +198,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 14256
+VSCODE_PID = 13824
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
@@ -206,11 +210,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 
 # Directories
 
-# . (key c:/Users/banup/M1_Product-Management_App, mtime 1646299082): 11 files, no impossibilities.
+# . (key c:/Users/banup/M1_Product-Management_App, mtime 1646303277): 12 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1644837714): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1644837725): 99 files, no impossibilities so far.
 
-# 185 files, no impossibilities in 3 directories.
+# 186 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -261,9 +265,8 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Thu Mar 03 15:55:10 2022
+# Finished Make data base on Thu Mar 03 16:24:32 2022
 
  
-make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
 make: *** No rule to make target `all'.  Stop.
  
