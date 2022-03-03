@@ -13,8 +13,7 @@
 #ifndef PRODUCTMANAGEMENT_H_
 #define PRODUCTMANAGEMENT_H_
 
-//Include file
-
+//Include declaration
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
