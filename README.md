@@ -6,3 +6,4 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e90729901b754357a4435b2f72ae1fdd)](https://www.codacy.com/gh/Reddy426/M1_Product-Management_App/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Reddy426/M1_Product-Management_App&amp;utm_campaign=Badge_Grade)
 [![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml)
 [![unit Testing -unity](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/unity.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/unity.yml)
+[![C/C++ CI](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Reddy426/M1_Product-Management_App/actions/workflows/c-cpp.yml)
