@@ -1,7 +1,7 @@
 /**
  * @file Productmanagement.h
  * @author Reddy426 (you@domain.com)
- * @brief 
+ * @brief This project about Product Management
  * @version 0.1
  * @date 2022-02-11
  * 
@@ -20,9 +20,7 @@
 #include <string.h>
 
 
-
-//Structure Declaration
-
+//Structure Decleration
 typedef struct items
 {
     char product_code[50];
