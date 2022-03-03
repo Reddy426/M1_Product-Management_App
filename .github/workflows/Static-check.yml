@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
       run: sudo apt-get install cppcheck
     - name: Static Analysis
-      run: cppcheck --enable=all Miniproject/3_Implementation
+      run: cppcheck --enable=all 3_Implementation
  
