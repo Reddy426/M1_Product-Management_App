@@ -11,7 +11,7 @@ make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
 make: *** No rule to make target `all'.  Stop.
  
 
-# Make data base, printed on Thu Mar 03 22:56:17 2022
+# Make data base, printed on Fri Mar 04 19:39:10 2022
 
 # Variables
 
@@ -36,7 +36,7 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
-CURDIR := c:/Users/banup/M1_Product-Management_App
+CURDIR := b:/LTTS/Projects/Module1/M1_Product-Management_App
 # default
 SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
 # environment
@@ -58,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-546663af-3f71-43d7-b45d-afed5679442a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-73492e2b-e845-4a2d-8522-ca59875c310c-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -84,7 +84,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12524_GJVGOKENAJFKNPZL
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29744_DDUQBRGFRQXVRNEY
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -102,9 +102,9 @@ USERNAME = banup
 # environment
 PUBLIC = C:\Users\Public
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\banup\AppData\Roaming\Code\CachedData\f80445acd5a3dadef24aa209168452a3d97cc326
+VSCODE_CODE_CACHE_PATH = C:\Users\banup\AppData\Roaming\Code\CachedData\b5205cc8eb4fbaa726835538cd82372cc0222d43
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -150,7 +150,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\aef4195e1f0cd6537ad72a4effecd658-1.64.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\aef4195e1f0cd6537ad72a4effecd658-1.65.0-main-sock
 # environment
 HOMEPATH = \Users\banup
 # environment
@@ -169,6 +169,8 @@ SYSTEMROOT = C:\WINDOWS
 +F = $(notdir $+)
 # environment
 APPDATA = C:\Users\banup\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # environment
 TEMP = C:\Users\banup\AppData\Local\Temp
 # environment
@@ -198,11 +200,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 12524
+VSCODE_PID = 29744
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=11/109=10%
+# Load=94/1024=9%, Rehash=0, Collisions=11/110=10%
 
 # Pattern-specific Variable Values
 
@@ -210,11 +212,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 
 # Directories
 
-# . (key c:/Users/banup/M1_Product-Management_App, mtime 1646328040): 7 files, no impossibilities.
+# . (key b:/LTTS/Projects/Module1/M1_Product-Management_App, mtime 1646402941): 12 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1644837714): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1644837725): 99 files, no impossibilities so far.
 
-# 181 files, no impossibilities in 3 directories.
+# 186 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -265,6 +267,6 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Thu Mar 03 22:56:17 2022
+# Finished Make data base on Fri Mar 04 19:39:10 2022
 
  
