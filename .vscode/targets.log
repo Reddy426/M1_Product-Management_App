@@ -6,12 +6,8 @@ make all -f B:\PROJECT\MS_VSCODE\LED_Test --print-data-base --no-builtin-variabl
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
- 
-make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
-make: *** No rule to make target `all'.  Stop.
- 
 
-# Make data base, printed on Fri Mar 04 19:39:10 2022
+# Make data base, printed on Tue May 17 11:35:11 2022
 
 # Variables
 
@@ -26,7 +22,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-PLATFORMIO_IDE = 2.4.2
+PLATFORMIO_IDE = 2.4.3
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -44,6 +40,10 @@ WINDIR = C:\WINDOWS
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;
+# environment
 ONEDRIVE = C:\Users\banup\OneDrive
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
@@ -58,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-73492e2b-e845-4a2d-8522-ca59875c310c-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f63e48ca-531e-4b63-8318-3da1ba72a3fe-sock
 # environment
 VSCODE_CWD = C:\Users\banup\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -84,7 +84,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29744_DDUQBRGFRQXVRNEY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18392_OCFYNBRUEZBALKLO
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -104,7 +104,7 @@ PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\banup\AppData\Roaming\Code\CachedData\b5205cc8eb4fbaa726835538cd82372cc0222d43
+VSCODE_CODE_CACHE_PATH = C:\Users\banup\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -112,19 +112,17 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\DESKTOP-FMLSVJB
 # environment
-ONEDRIVECONSUMER = C:\Users\banup\OneDrive
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DESKTOP-FMLSVJB
 # environment
-PLATFORMIO_PATH = C:\Users\banup\.platformio\python3;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\bin;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\MinGW\msys\1.0\include\w32api;C;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\banup\AppData\Local\Microsoft\WindowsApps;C:\Users\banup\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\Users\banup\.dotnet\tools;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\bin;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\MinGW\msys\1.0\include\w32api;C;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\banup\AppData\Local\Microsoft\WindowsApps;C:\Users\banup\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\Users\banup\.dotnet\tools;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;
+PLATFORMIO_PATH = C:\Users\banup\.platformio\python3;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\bin;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\MinGW\msys\1.0\include\w32api;C;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;B:\LTTS\Software\xpack-qemu-arm-6.2.0-2-win32-x64\xpack-qemu-arm-6.2.0-2\bin;C:\Program Files\PuTTY\;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\banup\AppData\Local\Microsoft\WindowsApps;C:\Users\banup\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\Users\banup\.dotnet\tools;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;B:\LTTS\Software\xpack-qemu-arm-6.2.0-2-win32-x64\xpack-qemu-arm-6.2.0-2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Program Files\PuTTY;;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\bin;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\MinGW\msys\1.0\include\w32api;C;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;B:\LTTS\Software\xpack-qemu-arm-6.2.0-2-win32-x64\xpack-qemu-arm-6.2.0-2\bin;C:\Program Files\PuTTY\;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\banup\AppData\Local\Microsoft\WindowsApps;C:\Users\banup\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\Users\banup\.dotnet\tools;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;B:\LTTS\Software\xpack-qemu-arm-6.2.0-2-win32-x64\xpack-qemu-arm-6.2.0-2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Program Files\PuTTY;
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\bin;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\MinGW\msys\1.0\include\w32api;C;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\banup\AppData\Local\Microsoft\WindowsApps;C:\Users\banup\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\Users\banup\.dotnet\tools;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\bin;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\MinGW\msys\1.0\include\w32api;C;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;B:\LTTS\Software\xpack-qemu-arm-6.2.0-2-win32-x64\xpack-qemu-arm-6.2.0-2\bin;C:\Program Files\PuTTY\;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\banup\AppData\Local\Microsoft\WindowsApps;C:\Users\banup\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\include;C:\msys64\mingw64\x86_64-w64-mingw32\include;C:\Users\banup\.dotnet\tools;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\doxygen;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cppcheck x64 2.7;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\GnuWin32\Make;C:\WinAVR-20100110\bin;C:\Users\banup\Documents\aurdino\Home_Auto\data;C:\Users\banup\Documents\PlatformIO\Projects\Smart_home\.pio\libdeps\uno\LiquidCrystal;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include;B:\LTTS\Software\xpack-qemu-arm-6.2.0-2-win32-x64\xpack-qemu-arm-6.2.0-2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Program Files\PuTTY;
 # default
 MAKE_VERSION := 3.81
 # makefile
@@ -150,7 +148,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\aef4195e1f0cd6537ad72a4effecd658-1.65.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\aef4195e1f0cd6537ad72a4effecd658-1.67.1-main-sock
 # environment
 HOMEPATH = \Users\banup
 # environment
@@ -169,8 +167,6 @@ SYSTEMROOT = C:\WINDOWS
 +F = $(notdir $+)
 # environment
 APPDATA = C:\Users\banup\AppData\Roaming
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # environment
 TEMP = C:\Users\banup\AppData\Local\Temp
 # environment
@@ -200,7 +196,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 29744
+VSCODE_PID = 18392
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 # variable set hash-table stats:
@@ -212,11 +208,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FMLSVJB
 
 # Directories
 
-# . (key b:/LTTS/Projects/Module1/M1_Product-Management_App, mtime 1646402941): 12 files, no impossibilities.
+# . (key b:/LTTS/Projects/Module1/M1_Product-Management_App, mtime 1652721923): 13 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1644837714): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1644837725): 99 files, no impossibilities so far.
 
-# 186 files, no impossibilities in 3 directories.
+# 187 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -267,6 +263,9 @@ B:\PROJECT\MS_VSCODE\LED_Test:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4066 / max = 4066 / min = 4066 / avg = 4066
 
-# Finished Make data base on Fri Mar 04 19:39:10 2022
+# Finished Make data base on Tue May 17 11:35:11 2022
 
  
+make: B:\PROJECT\MS_VSCODE\LED_Test: Permission denied
+make: *** No rule to make target `all'.  Stop.
+
