@@ -2,62 +2,10 @@
 #include "Productmanagement.h"
 // This program only run on gcc compiler.
 /*
-Product management system to Add_Product, Read, delete,Edit and Sell product
-*/
-/*#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>*/
+Product management system to Add_Product, Read, delete,Edit and Sell product*/
 
 #define USERNAME "Admin"
 #define PASSWORD "Admin123"
-/*typedef struct items
-{
-    char product_code[50];
-    char product_name[50];
-    int rate;
-    int quantity;
-    char Company_name[30];
-
-}
- ITEM;
-
-ITEM item;*/
-
-// // Operate to see in the given product code is available
-// int isCodeAvailable(char code[])
-// {
-//     FILE *file;
-//     file = fopen("Record.txt", "r");
-//     while (!feof(file))
-//     {
-//         fread(&item, sizeof(item), 1, file);
-//         if (strcmp(code, item.product_code) == 0)
-//         {
-//             fclose(file);
-//             return 1;
-//         }
-//     }
-//     fclose(file);
-//     return 0;
-// }
-
-// // Function to check the quentity during the Sell product.
-// int isProductAvailable(int quantity)
-// {
-//     FILE *file;
-//     file = fopen("Record.txt", "r");
-//     while (!feof(file))
-//     {
-//         fread(&item, sizeof(item), 1, file);
-//         if (item.quantity >= quantity)
-//         {
-//             fclose(file);
-//             return 1;
-//         }
-//     }
-//     fclose(file);
-//     return 0;
-// }
 
 // function to check the choice is integer or not
 int get_int(int input)

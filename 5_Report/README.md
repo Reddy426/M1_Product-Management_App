@@ -20,18 +20,22 @@
 
 [OUTPUT](#output)
 
-
+---
 # 1.1 Introduction of Product Management
 
 Product Management System is a simple application system designed to maintain details of all products. Products are used on day to day life . The project focuses on adding new Product, viewing Product, deleting, Reading and editing the list.
 
+---
 # 1.2 Features
 
 - Major activities of the manual system is automated, which increases its throughput
 - The system is fast, user friendly and interactive
 - The information entered is more accurate and clear
 - Better data management facility in terms of maintaining files which are entered in registers manually and stored.
+---
+[Back to Contents](#table-of-contents)
 
+---
 
 # 1.3 4W'S and 1H
 
@@ -54,6 +58,10 @@ The Product management system is nowadays essential for malls, medical stores, p
 
 This project is implemented to do the Adding, search, read, edit and deleteing of the product by using structures, files, pointers and other functionalities of C.
 
+---
+[Back to Contents](#table-of-contents)
+
+---
 # 1.4 SWOT Analysis
 
 **Strength**
@@ -83,6 +91,10 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 - Other Applications are Secured.
 - Better Management system.
 
+---
+[Back to Contents](#table-of-contents)
+
+---
 # 2.1 HIGH LEVEL REQUIREMENTS
 
 |RID |DESCRIPTION |STATUS |
@@ -103,6 +115,10 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 |LLR4 |Read product |IMPLEMENTED |
 |LLR5 |Edit product |IMPLEMENTED |
 
+---
+[Back to Contents](#table-of-contents)
+
+---
 # Behaviour Diagram
 
 ## 3.1 Use Case Diagram
@@ -121,7 +137,10 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 
 ![ProductM](https://user-images.githubusercontent.com/98537406/155879847-d5564020-78dc-430a-9cb7-e4a31ad85ee4.png)
 
+---
+[Back to Contents](#table-of-contents)
 
+---
 # Test Plan & Output
 
 ## 4.1 High level Test Plan
@@ -147,7 +166,10 @@ This project is implemented to do the Adding, search, read, edit and deleteing o
 |LLT_06 |Enter the Product Company Name in Add |Eg. 123 |Move to Next | ontain invalid character. Please 'Enter' again |Fail |
 
 
+---
+[Back to Contents](#table-of-contents)
 
+---
 
 # Code
 
@@ -657,25 +679,39 @@ void deleteRecord()
 } // Finished.
 
 ```
+
+---
+[Back to Contents](#table-of-contents)
+
+---
 # Program Output
 
 - Login Page
 <img width="638" alt="Login_Page" src="https://user-images.githubusercontent.com/98537406/153622868-d0364f1e-28db-4bc9-a3f3-2a40a345ed0b.PNG">
 
+---
+
 - Add Product
 <img width="460" alt="Add_Product" src="https://user-images.githubusercontent.com/98537406/153623197-4066f66a-3fa8-4933-908e-a0dd0318673d.PNG">
 
+---
 - Read Product
 <img width="670" alt="Read_Product" src="https://user-images.githubusercontent.com/98537406/153623288-97b66e03-f840-4f98-8609-dbf01be5f8c1.PNG">
 
+---
 - Search Product
 <img width="371" alt="Search_Product" src="https://user-images.githubusercontent.com/98537406/153626982-9eabe3f5-3db6-4adb-a70f-26ebf353e2c1.PNG">
 
+---
 - Edit Product
 <img width="577" alt="Edit_Product" src="https://user-images.githubusercontent.com/98537406/153623576-3ec35d50-7502-46ed-8b02-015077e6f464.PNG">
 
+---
 - Sell Product
 <img width="508" alt="Sell_Product" src="https://user-images.githubusercontent.com/98537406/153623696-ef186139-e864-404c-9d76-5430cbdce46d.PNG">
 
+---
 - Delete Product
 <img width="640" alt="Delete_Product" src="https://user-images.githubusercontent.com/98537406/153623892-d5ea1698-a885-4d43-882b-fdf69f0846f0.PNG">
+
+---
